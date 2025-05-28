@@ -33,7 +33,6 @@ a:hover {
 }
 
 .hero__background {
-    /*redimensiona um elemento para que ele preencha a largura e a altura do seu contêiner pai*/
     object-fit: cover;
 
     position: absolute;
@@ -61,7 +60,6 @@ a:hover {
 }
 
 .section {
-    /* controlar o tamanho dos elementos filhos */
     overflow: hidden;
 
     padding: 0 5rem;
@@ -81,7 +79,6 @@ a:hover {
     box-shadow: 0 1rem 2rem -0.5rem rgba(20, 116, 180, 0.25) ;
     object-fit: cover;
 
-    /* referencia a imagem de fundo do elemento pai */
     object-position: top;
 
     position: relative;
